@@ -1,24 +1,10 @@
-# 中国车牌模拟生成器
-
-#### 介绍
-中国车牌模拟生成器
-
+#### 车牌自动化生成脚本
 #### 支持车牌
 黄色、白色、黑色、新能源车牌
 
 单层、双层车牌
 
-
-#### 安装教程
-
-- python >= 3.5
-- opencv-python >= 3.4
-- numpy >= 1.15
-
-
-windows下的字符问题见：https://gitee.com/leijd/chinese_license_plate_generator/issues/I1NOC7
-
-#### 使用说明
+#### Tips：
 
 1、随机生成车牌
 
@@ -56,9 +42,6 @@ python generate_special_plate.py --plate-number 湘999999 --bg-color yellow --do
 
 
 请设置符合交通法的车牌，否则报错。比如新能源车牌（green_car/green_truck）都是8位，没有7位。
-
-
-项目说明见：https://zhuanlan.zhihu.com/p/101352235
 
 
 
